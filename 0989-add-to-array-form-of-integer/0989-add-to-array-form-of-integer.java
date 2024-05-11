@@ -15,7 +15,7 @@ class Solution {
              carry = sum/10;
              list.add(digit);
              p--; // moving pointer
-             k = k/10;
+             k = k/10; // removing the last digit from the number
              
             
             
