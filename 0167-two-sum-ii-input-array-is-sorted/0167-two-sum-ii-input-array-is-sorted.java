@@ -6,7 +6,7 @@ class Solution {
         while(start<end){
             int sum = numbers[start] + numbers[end];
             if(sum == target){
-                ans[0]= start+1;
+                ans[0]= start+1; // it will only the return the index if the answer will found at 0Th index then it will return in the output index of 1
                 ans[1] = end+1;
                 return ans;
             }else if(sum>target){ // if the sum is greater than our target then end move to its left side similary sum is less than target then it will move right side
