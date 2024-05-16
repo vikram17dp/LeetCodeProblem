@@ -4,7 +4,8 @@ class Solution {
         if(nums.length == 0){ // if the number length is zero then it will -1,-1
             return ans;
         }
-        ans[0]=FirstOcurrance(nums,target); // if only when one index is their on that it will call same as last next one 
+        ans[0]=FirstOcurrance(nums,target); 
+        // if only when one index is their on that it will call same as next one 
         ans[1]=LastOcuurance(nums,target);
         return ans;
        
