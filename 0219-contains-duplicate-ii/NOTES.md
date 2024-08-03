@@ -1,0 +1,1 @@
+Tc is o(n) and sp is O(k)
