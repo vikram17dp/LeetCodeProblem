@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // O(N) BOTH
     public int[] twoSum(int[] nums, int target) {
        
         HashMap<Integer,Integer> map = new HashMap<>();
