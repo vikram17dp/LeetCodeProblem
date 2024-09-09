@@ -1,15 +1,12 @@
 class Solution {
-    public int removeDuplicates(int[] nums) {
-    int rd = 1;
-     
-        for(int i =0;i<nums.length-1;i++){
-     
-            if( nums[i]!=nums[i+1]){
-           
-                nums[rd] = nums[i+1];
-                rd++;
+    public int removeDuplicates(int[] nums) { // TC is O(N) and SC is O(1)
+       int i = 0;
+        for(int j = 1;j<nums.length;j++){ // j =  or j = 1
+            if(nums[i] != nums[j]){
+                nums[i+1] = nums[j];
+                i++;
             }
-        }   
-        return rd;
+        }
+        return i+1;
     }
 }
