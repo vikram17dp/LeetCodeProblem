@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // O(1 ) and for the worst case is O(n)
     public int longestConsecutive(int[] nums) {
        int longest = 0;
         int n = nums.length;
