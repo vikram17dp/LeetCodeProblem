@@ -1,5 +1,5 @@
-class Solution {
-    public int search(int[] nums, int target) {
+class Solution { // TC is O(log base2 n)
+    public int search(int[] nums, int target) { 
         int n = nums.length;
         
         int low = 0;
