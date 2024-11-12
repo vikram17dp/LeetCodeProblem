@@ -1,48 +1,44 @@
 class Solution {
-    public int[] searchRange(int[] nums, int target) { // TC => O(logn)
-        int[] ans = {-1,-1};
-        if(nums.length == 0){ // if the number length is zero then it will -1,-1
-            return ans;
-        }
-        ans[0]=FirstOcurrance(nums,target); 
-        // if only when one index is their on that it will call same as next one 
-        ans[1]=LastOcuurance(nums,target);
-        return ans;
-       
+    public int[] searchRange(int[] nums, int target) {
+        int[] result = {-1,-1};
+        result[0] = findFirst(nums,target);
+        result[1] = findLast(nums,target);
+        return result;
     }
-    public int FirstOcurrance(int[] nums,int target){
-        int start = 0;
-        int end = nums.length-1;
-        int ans = -1;
-        while(start<=end){
-            int mid = (start+end)/2;
-            if(nums[mid] == target){
-                ans = mid;
-                end = mid-1;
-            }else if(target>nums[mid]){
-                start = mid+1;
+    public int findFirst(int[] nums,int target){
+        int low = 0;
+        int high = nums.length-1;
+        int index = -1;
+        
+        while(low<=high){
+            int mid = low + (high-low)/2;
+            if(nums[mid]>=target){
+                high = mid-1;
             }else{
-                end = mid-1;
-            }  
-        }
-        return ans;
-       
-    }
-    public int LastOcuurance(int[] nums,int target){
-        int start = 0;
-        int end = nums.length-1;
-        int ans = -1;
-        while(start<=end){
-            int mid = (start + end)/2;
-            if(nums[mid] == target){
-                ans = mid;
-                start = mid+1;
-            }else if(target> nums[mid]){
-                start = mid+1;
-            }else{
-                end = mid-1;
+                low = mid+1;
+            }
+            if(nums[mid] == target) {
+                index = mid;
             }
         }
-        return ans;
+        return index;
+    }
+    public int findLast(int[] nums,int target){
+        int low= 0;
+        int  high = nums.length-1;
+        int index = -1;
+        while(low<= high){
+                int mid = low + (high-low)/2;
+            if(nums[mid]<= target){
+                low = mid+1;
+            }else{
+                high = mid-1;
+            }
+            if(nums[mid] == target){
+                index = mid;
+            }
+            
+        }
+        return index;
     }
 }
