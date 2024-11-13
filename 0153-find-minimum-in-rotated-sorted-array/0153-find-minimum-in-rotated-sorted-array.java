@@ -1,26 +1,23 @@
-class Solution {
+class Solution { // o(logn)
     public int findMin(int[] nums) {
-        // two base cases here
-        if(nums.length == 1){
-            return nums[0]; 
-        }else if(nums[0]<=nums[nums.length-1]){
-            return nums[0];
+        int low = 0;
+        int high = nums.length-1;
+        int ans = Integer.MAX_VALUE;
+        while(low<=high){
+            int mid  = low + (high-low)/2;
+            // if search space of array is sorted on that time,no need to perform BS 
+            if(nums[low]<=nums[high]){
+                ans = Math.min(ans,nums[low]);
+                break;
+            }
+            if(nums[low]<=nums[mid]){
+                ans = Math.min(ans,nums[low]);
+                low = mid+1;
+            }else{
+                ans = Math.min(ans,nums[mid]);
+                high = mid-1;
+            }
         }
-        int start =0;
-        int end = nums.length-1;
-        while(start<=end){
-            int mid = (start+end)/2;
-           if(mid!=0 && nums[mid-1]>nums[mid]){ // nums[mid-1] means nums[mid] left side side index ans nums[mid+1] means nums[mid] right side index
-               return nums[mid];
-           }else if(mid!=nums.length-1 && nums[mid]>nums[mid+1]){
-               return nums[mid+1];
-           }else if(nums[start]<=nums[mid]){
-                start = mid+1; // left part of the array is sorted
-           }else{//right part of the array is sorted
-               end = mid-1;
-           }
-        }
-        return -1;
-        
+        return ans;
     }
 }
