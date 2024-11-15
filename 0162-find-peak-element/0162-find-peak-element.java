@@ -1,6 +1,6 @@
-class Solution {
+class Solution { // o(logn)
     public int findPeakElement(int[] nums) {
-         int n = nums.length;
+        int n = nums.length;
         int low = 0;
         int high = n-1;
        
