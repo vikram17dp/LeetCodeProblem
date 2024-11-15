@@ -1,34 +1,25 @@
+import java.util.ArrayList;
+import java.util.List;
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        int[] ans = merge(nums1,nums2);
-        if(ans.length%2 ==0){
-            double ans2=(double)(ans[ans.length/2] + ans[ans.length/2-1])/2; // this case for even case
-            return ans2;
-        }else{
-            double ans2 = (double)(ans[ans.length/2]);// this case for odd case
-            return ans2;
-
-        }
-        
-    }
-    public int[] merge(int[] arr1,int[] arr2){
-        int[] ans = new int[arr1.length+ arr2.length];
-        int p1=0;
-        int p2=0;
-        int p3=0;
-        while(p1<arr1.length || p2<arr2.length){
-            int val1 = p1<arr1.length ? arr1[p1]:Integer.MAX_VALUE;// MAX_VALUE means that +infinity
-            int val2 = p2<arr2.length ? arr2[p2]:Integer.MAX_VALUE;
-            if(val1<val2){
-                ans[p3]=val1;
-                p1++;
-            }else{
-                ans[p3] = val2;
-                p2++;
+        int n1 = nums1.length;
+        int n2 = nums2.length;
+        List<Integer> nums3 = new ArrayList<>();
+        int i = 0,j = 0;
+          while (i < n1 && j < n2) {
+            if (nums1[i] < nums2[j]) {
+                nums3.add(nums1[i++]);
+            } else {
+                nums3.add(nums2[j++]);
             }
-            p3++;
-            
         }
-        return ans;
+        while(i<n1)  nums3.add(nums1[i++]);
+        while(j<n2)  nums3.add(nums2[j++]);
+        int n = nums3.size();
+        if(n % 2 == 1){
+            return nums3.get(n/2);
+        }else{
+            return (nums3.get(n/2) + nums3.get(n/2-1))/2.0;
+        }
     }
 }
