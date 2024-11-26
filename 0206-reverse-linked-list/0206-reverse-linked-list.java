@@ -30,7 +30,7 @@ class Solution {
         ListNode prev = null;
         while(temp != null){
             ListNode front = temp.next;
-            temp.next = prev;
+            temp.next = prev; // this is the condition like changing the reverse
             prev = temp;
             temp = front;
         }
