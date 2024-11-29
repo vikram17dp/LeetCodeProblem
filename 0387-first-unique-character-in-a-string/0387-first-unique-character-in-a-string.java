@@ -1,7 +1,7 @@
 class Solution {
-    public int firstUniqChar(String str) {
+    public int firstUniqChar(String str) { // Tc is O(N)
         int index = -1;
-        HashMap<Character,Integer> map = new HashMap<>();
+        LinkedHashMap<Character,Integer> map = new LinkedHashMap<>();
         
         // update the map with current letters
         for(int i =0;i<str.length();i++){
