@@ -1,7 +1,8 @@
-class Solution {
+class Solution { // Tc is O(nsquare) and Sc is O(1)
     public String longestPalindrome(String str) {
         // Base Case
         if(str.length()<=1) return str;
+        
         String LPS = "";
         
         for(int i =1;i<str.length();i++){
@@ -10,7 +11,7 @@ class Solution {
             int high = i;
             while(str.charAt(low) == str.charAt(high)){
                 low--;
-                high++;
+                high++;     
                 
                 if(low == -1 || high == str.length()) break;
             }
