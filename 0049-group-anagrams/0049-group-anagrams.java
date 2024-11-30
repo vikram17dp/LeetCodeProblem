@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // Tc is O(N*K) and K is the maximum length of the string
     public String getfrequencyString(String str){
         // creating an empty buckets
         int[] freq = new int[26];
