@@ -1,5 +1,5 @@
 class Solution {
-    public boolean isAnagram(String str1, String str2) {
+    public boolean isAnagram(String str1, String str2) { // TC is O(N) and Sc is O(1)
         // converting all the strings into the lowercase
         str1 = str1.toLowerCase();
         str2 = str2.toLowerCase();
