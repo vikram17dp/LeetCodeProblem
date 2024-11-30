@@ -1,5 +1,6 @@
 class Solution { // Tc is O(N*K) and K is the maximum length of the string
-    public String getfrequencyString(String str){
+    
+    private String getfrequencyString(String str){
         // creating an empty buckets
         int[] freq = new int[26];
         
@@ -18,6 +19,7 @@ class Solution { // Tc is O(N*K) and K is the maximum length of the string
         }
         return frequencyString.toString();
     }
+    
     public List<List<String>> groupAnagrams(String[] str) {
         // check for the empty inputs
         if(str == null || str.length == 0) return new ArrayList<>();
