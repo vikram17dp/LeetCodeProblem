@@ -6,7 +6,7 @@ class Solution { // Tc is O(n! * N) and Sc is o(N)
     }
     
     private void backtrack (List<List<Integer>> resultList,ArrayList<Integer> tempList,int[] nums){
-        
+        // if we match the length then we got the permutation
         if(tempList.size() == nums.length){
             resultList.add(new ArrayList<>(tempList));
             return;
