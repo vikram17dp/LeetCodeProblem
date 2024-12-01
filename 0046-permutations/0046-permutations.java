@@ -1,4 +1,4 @@
-class Solution { // Tc is O(n! * N) and Sc is o(N)
+class Solution { // Tc is O(n! * N) and Sc is o(N) where the n is the stack space of the list
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> resultList = new ArrayList<>();
         backtrack(resultList,new ArrayList<>(),nums);
