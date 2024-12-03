@@ -9,7 +9,7 @@ class Solution {
     
     // we cant use the extra space to store the string
     
-     public int lengthOfLastWord(String s) {
+     public int lengthOfLastWord(String s) { // Tc is O(n) and sc is O(1)
         int count = 0;
          for(int i = s.length()-1;i>=0;i--){
              // we dont have the white space
