@@ -25,7 +25,7 @@ class Solution {
     
     // using the stack method
     
-    private String usingStack(String str){
+    private String usingStack(String str){ // Tc is O(n+m) and sc is O(n)
         Stack<Character> stack = new Stack<>();
         for(char c:str.toCharArray()){
             if(c == '#'){
