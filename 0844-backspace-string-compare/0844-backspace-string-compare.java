@@ -1,4 +1,4 @@
-class Solution { // we can solve this one in the so many ways like two pointers and stack and hashnmap and normal string - 4 ways
+class Solution { // we can solve this one in the so many ways like two pointers and stack and hashmap and normal string - 4 ways
     // public boolean backspaceCompare(String s, String t) { // TC is o(n) and SC is O(n)
     //     return processString(s).equals(processString(t));
     // }
