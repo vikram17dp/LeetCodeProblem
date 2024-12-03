@@ -1,5 +1,5 @@
-class Solution {
-    public String sortSentence(String s) {
+class Solution {// TC is O(n) and sc is O(1)
+    public String sortSentence(String s) { // we can use the hashmap also
         String[] words =s.split(" ");
         
         String[] sortedWords = new String[words.length];
