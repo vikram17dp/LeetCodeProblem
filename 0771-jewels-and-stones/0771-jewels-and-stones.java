@@ -1,5 +1,6 @@
 class Solution {// TC is O(N) and sc is O(M)
     public int numJewelsInStones(String jewels, String stones) {
+        // case snestive if not convert into lower case for all strings
         HashSet<Character> jewelset = new HashSet<>();
         
         // add the diffent jewels into the sets
