@@ -1,4 +1,4 @@
-class Solution { 
+class Solution { // tc is O(n) and sc O(26 or 128) 26-english letters and other Asiic char
     public boolean isIsomorphic(String s, String t) {
       // base case
         if(s.length()!=t.length()) return false;
