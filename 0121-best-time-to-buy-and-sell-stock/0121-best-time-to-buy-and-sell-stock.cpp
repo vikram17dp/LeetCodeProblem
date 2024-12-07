@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // tc is O(n) and sc is O(1)
 public:
     int maxProfit(vector<int>& prices) {
        int buy_price = INT_MAX,sell_price = 0,maxprofit =0;
