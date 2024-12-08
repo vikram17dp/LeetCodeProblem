@@ -1,5 +1,5 @@
 class Solution {
-    public int[] sortedSquares(int[] nums) {
+    public int[] sortedSquares(int[] nums) { // tc is o(n) and sc is O(n)
         int n = nums.length;
         int result[] = new int[n];
         
