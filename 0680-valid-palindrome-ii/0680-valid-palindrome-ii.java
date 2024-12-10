@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // tc is O(n) and sc is O(1)
     public boolean validPalindrome(String s) {
         int start = 0;
         int end = s.length()-1;
@@ -15,13 +15,13 @@ class Solution {
         return true; 
     }
      private boolean validpalindromefun(String s,int start,int end){
-             while(start<end){
+            while(start<end){
             if(s.charAt(start) != s.charAt(end)){
                return false;
             }
-                 start++;
-                 end--;
-        }
+            start++;
+            end--;
+}
         return true;
-        }
+}
 }
