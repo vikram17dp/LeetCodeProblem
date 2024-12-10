@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // tc is O(n) and sc is O(1)
     public boolean isSubsequence(String s, String t) {
         if(s == null || t == null) return false;
         if(s.isEmpty()) return true;
