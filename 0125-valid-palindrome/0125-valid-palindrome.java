@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // tc is O(n) and sc is O(1)
     public boolean isPalindrome(String s) {
         int start = 0;
         int end = s.length()-1;
