@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // tc is O(n) and sc is O(1)
 public:
     string largestGoodInteger(string num) {
          char ans = -1;
