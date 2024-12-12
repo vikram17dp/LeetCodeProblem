@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // tc is O(n) and sc is O(256)
     public int lengthOfLongestSubstring(String s) {
         Set<Character> set = new HashSet<>();
         int maxlength = 0;
