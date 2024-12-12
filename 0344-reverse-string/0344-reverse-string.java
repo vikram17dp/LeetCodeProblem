@@ -1,11 +1,12 @@
-class Solution {
+class Solution { // tc & sc is O(1)
     public void reverseString(char[] s) {
-        Stack<Character> stack = new Stack<>();
-        for(int i =0;i<s.length;i++){
-           stack.push(s[i]);
-        }
-        for(int i =0;i<s.length;i++){
-            s[i]=stack.pop();
+        int low = 0,high = s.length-1;
+        while(low<high){
+            char temp = s[low];
+            s[low]=s[high];
+            s[high]=temp;
+            low++;
+            high--;
         }
     }
 }
