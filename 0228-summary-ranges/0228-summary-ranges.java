@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // tc is O(n) and sc is O(1)
     public List<String> summaryRanges(int[] nums) {
        List<String> list = new ArrayList<>();
         
