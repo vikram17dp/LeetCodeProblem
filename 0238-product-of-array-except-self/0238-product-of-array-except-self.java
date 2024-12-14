@@ -1,4 +1,4 @@
-class Solution { // tc & sc is O(n)
+class Solution { // tc is O(n) & sc is O(1)
     public int[] productExceptSelf(int[] nums) {
         int[] left = new int[nums.length];
         
