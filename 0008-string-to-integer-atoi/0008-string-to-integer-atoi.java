@@ -19,7 +19,7 @@ class Solution {
         while(i<s.length()){
             // main case
             if(s.charAt(i) == ' ' || !Character.isDigit(s.charAt(i))) break;
-            
+            //from this condition only we are getting ans of digit 
             ans = ans*10 + s.charAt(i) - '0';
             
             if(sign == -1 && -1*ans<min) return min ;
