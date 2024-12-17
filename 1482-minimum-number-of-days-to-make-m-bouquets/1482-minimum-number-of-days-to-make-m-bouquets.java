@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // tc is O(n⋅log(max−min)) and sc is O(1)
     public int minDays(int[] bloomDay, int m, int k) {
         // edge case
         if((long)m*k > bloomDay.length) return -1;
