@@ -1,4 +1,4 @@
-class Solution { // tc is O(sqrt(num)) and sc is O(1)
+class Solution { // tc is O(log(num)) and sc is O(1)
     public boolean isPerfectSquare(int num) {
         if(num < 1) return false;
        long  low = 1,high = num;
