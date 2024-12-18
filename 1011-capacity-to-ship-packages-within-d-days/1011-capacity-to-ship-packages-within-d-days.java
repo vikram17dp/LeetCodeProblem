@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // tc is (n⋅log(sum of weights)) and sc is O(1)
     
     private int findDays(int[] weights,int cap){
         int load = 0,days = 1;
