@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // tc is O(nsquare) and sc is O(1)
     public int longestOnes(int[] nums, int k) {
         int n = nums.length,maxLength = 0;
         
