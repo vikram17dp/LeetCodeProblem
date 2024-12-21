@@ -1,4 +1,4 @@
-class Solution { // tc is O(n2) and sc is O(1)
+class Solution { // tc is O(n) and sc is O(1) and sliding window
     public int numberOfSubstrings(String s) {
         int count = 0,left =0, n = s.length();
         int[] charCount = new int[3];
@@ -9,12 +9,10 @@ class Solution { // tc is O(n2) and sc is O(1)
             
             while(charCount[0] > 0 && charCount[1] > 0 && charCount[2] >0){
                 count += n-right;
+                // shrking the window size
                 charCount[s.charAt(left) - 'a']--;
                 left++;
-            }
-            
-               
-           
+            }    
         }
         return count;
     }
