@@ -1,19 +1,18 @@
 class Solution {
     public int maxProduct(int[] nums) {
-        if(nums.length==0){
-            return 0;
-        }
-        int min = nums[0]; // first we have to taken the min and max are the first index element only then we can compare with others values
-        int max = nums[0];
-        int result = max;
-        for(int i =1;i<nums.length;i++){
-             int curr = nums[i];
-             int temp = Math.max(curr,Math.max(max*curr,min*curr));
-             min = Math.min(curr,Math.min(min*curr,max*curr));
-             max = temp;
-             result = Math.max(result,max);
+        int min  = nums[0],max = nums[0],n = nums.length,result = max;
+      
+        for(int i = 1;i<n;i++){
+            int curr = nums[i];
             
+            int newMax = Math.max(curr,Math.max(max*curr,min*curr));
+            min = Math.min(curr,Math.min(max*curr,min*curr));
+            max = newMax;
+            result = Math.max(result,max);
         }
         return result;
+        
+        
+       
     }
 }
