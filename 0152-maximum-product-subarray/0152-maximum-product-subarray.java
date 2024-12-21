@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // tc is O(n) and sc is O(1)
     public int maxProduct(int[] nums) {
         int min  = nums[0],max = nums[0],n = nums.length,result = max;
       
