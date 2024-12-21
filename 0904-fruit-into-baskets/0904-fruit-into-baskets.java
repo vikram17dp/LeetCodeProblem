@@ -1,4 +1,4 @@
-class Solution { // tc is O() and sc is O(3)
+class Solution { // tc is O(2N) and sc is O(3)
     public int totalFruit(int[] fruits) {
         int n = fruits.length;
         int maxlength = 0;
@@ -10,6 +10,7 @@ class Solution { // tc is O() and sc is O(3)
             
             while (map.size() > 2) {
                 map.put(fruits[left], map.get(fruits[left]) - 1);
+                
                 if (map.get(fruits[left]) == 0) {
                     map.remove(fruits[left]);
                 }
