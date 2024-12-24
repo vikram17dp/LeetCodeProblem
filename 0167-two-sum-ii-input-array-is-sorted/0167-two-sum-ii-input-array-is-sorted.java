@@ -1,14 +1,21 @@
-class Solution {
+class Solution { // tc is O(nsquare) and sc is O(1)
     public int[] twoSum(int[] numbers, int target) {
         int n = numbers.length;
         
-        for(int i =0;i<n-1;i++){
-            for(int j = i+1;j<n;j++){
-                if(numbers[i]+numbers[j] == target){
-                    return new int[]{i+1, j+1};
-                }
+        int left = 0,right = n-1;
+        
+        while(left<right){
+            int sum = numbers[left] + numbers[right];
+            
+            if(sum == target){
+                return new int[] {left+1,right+1};
+            }else if(sum < target){
+                left++;
+            }else{
+                right--;
             }
         }
+        
         return null;
     }
 }
