@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // tc is O(2k) and sc is o(1)
     public int maxScore(int[] cardPoints, int k) {
         int n = cardPoints.length;
         
@@ -6,8 +6,8 @@ class Solution {
         
         for(int i = 0;i<k;i++){
             lSum = lSum + cardPoints[i];
-            
         }
+        
         maxScore = lSum;
         
         int  rIdx = n-1; // at the end
