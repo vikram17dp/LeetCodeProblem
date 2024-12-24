@@ -1,4 +1,4 @@
-class Solution { // tc is O(nsquare) and sc is O(1)
+class Solution { // tc is O(n) and sc is O(1)
     public int[] twoSum(int[] numbers, int target) {
         int n = numbers.length;
         
