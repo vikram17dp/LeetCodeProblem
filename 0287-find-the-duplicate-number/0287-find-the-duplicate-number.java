@@ -1,14 +1,19 @@
-class Solution { // tc is o(n) and sc is o(n)
+class Solution { // tc is o(n) and sc is o(1)
     public int findDuplicate(int[] nums) {
-          HashSet<Integer> seen = new HashSet<>();
+        int slow = 0,fast = 0;
         
-      for(int num:nums){
-          if(seen.contains(num)){
-              return num;
-          }
-          seen.add(num);
-      }
+        do{
+            slow = nums[slow];
+            fast = nums[nums[fast]];
+        }while(slow != fast);
         
-        return -1; 
+        slow =0;
+        while(slow != fast){
+            slow = nums[slow];
+            fast = nums[fast];
+            
+        }
+        return slow;
+        
     }
 }
