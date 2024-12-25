@@ -11,6 +11,7 @@ class Solution { // tc is O(n) and sc is O(102)
         
         for(int i:count){
             totalCount += ((i) * (i-1)/2);
+            // ((i) * (i-1)/2) this will give the nc2 = n!/r! * (n-r)!;
         }
         return totalCount;
         
