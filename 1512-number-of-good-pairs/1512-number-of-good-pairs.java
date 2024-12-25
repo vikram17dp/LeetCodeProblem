@@ -1,14 +1,19 @@
-class Solution { // tc is O(nsqaure) and sc is O(1)
+class Solution { // tc is O(n) and sc is O(102)
     public int numIdenticalPairs(int[] nums) {
-        int n = nums.length;
-        int goodPair = 0;
-        for(int i = 0;i<n;i++){
-            for(int j = i+1;j<n;j++){
-                if(nums[i] == nums[j]){
-                    goodPair+=1;
-                }
-            }
+        // storing the freq of numbers
+        int[] count = new int[102];
+        
+        for(int num:nums){
+            count[num]++;
         }
-        return goodPair;
+        
+        int totalCount = 0;
+        
+        for(int i:count){
+            totalCount += ((i) * (i-1)/2);
+        }
+        return totalCount;
+        
+        
     }
 }
