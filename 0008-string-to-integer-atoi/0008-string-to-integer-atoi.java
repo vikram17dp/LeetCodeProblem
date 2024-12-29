@@ -2,6 +2,7 @@ class Solution {
     public int myAtoi(String s) {
         //remove the whitespace
         s = s.trim();
+
         
         if(s.length() == 0) return 0;
         
