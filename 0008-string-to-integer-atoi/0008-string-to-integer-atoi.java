@@ -23,6 +23,7 @@ class Solution {
             //from this condition only we are getting ans of digit 
             ans = ans*10 + s.charAt(i) - '0';
             
+
             if(sign == -1 && -1*ans<min) return min ;
             if(sign == +1 && ans>max) return max;
             i++;
