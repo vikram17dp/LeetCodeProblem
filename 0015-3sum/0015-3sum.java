@@ -5,6 +5,7 @@ class Solution {
         for(int i=0;i<nums.length&& nums[i]<=0;i++){
             if(i == 0|| nums[i] != nums[i-1]){
                 twoSum2(nums,i,result);
+                
             }
         }
         return result;
