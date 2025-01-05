@@ -4,6 +4,7 @@ class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int n1 = nums1.length;
         int n2 = nums2.length;
+
         List<Integer> nums3 = new ArrayList<>();
         int i = 0,j = 0;
         // two array are empty
