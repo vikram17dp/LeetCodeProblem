@@ -10,6 +10,7 @@ class Solution {
                 matrix[j][i] = temp;
             }
         }
+
         // step 2 => reverse the matrix using swaping techinque
         for(int i = 0;i<n;i++){
             int left = 0,right = n-1;
