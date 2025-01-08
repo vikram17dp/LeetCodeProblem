@@ -5,6 +5,7 @@ class Solution {
         if(n == 0 || m == 0) return false;
         int row = 0;
         int col = m-1;
+
         while(row<n && col>=0){
             if(matrix[row][col] == target){
                 return true;
