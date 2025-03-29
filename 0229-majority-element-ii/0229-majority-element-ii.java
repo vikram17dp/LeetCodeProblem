@@ -1,24 +1,20 @@
-class Solution {
+class Solution { // tc is O(n) and sc is O(n)
     public List<Integer> majorityElement(int[] nums) {
         List<Integer> result = new ArrayList<>();
+        Map<Integer,Integer> freqMap = new HashMap<>();
 
         int n = nums.length;
         int threshold = n/3;
 
-        for(int i =0;i<n;i++){
-            int count = 0;
-            for(int j = 0;j<n;j++){
-                if(nums[j] == nums[i]){
-                    count++;
-                }
-            }
-           
-            if(count > threshold && !result.contains(nums[i])){
-             result.add(nums[i]);
-            }
+        for(int num:nums){
+            freqMap.put(num,freqMap.getOrDefault(num,0)+1);
         }
-return result;
 
-
+        for(Map.Entry<Integer,Integer> entry:freqMap.entrySet()){
+            if(entry.getValue() > threshold){
+                result.add(entry.getKey());
+            }
+        }        
+        return result;
     }
 }
