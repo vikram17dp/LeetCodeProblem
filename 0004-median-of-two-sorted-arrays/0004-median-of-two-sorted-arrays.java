@@ -18,6 +18,7 @@ class Solution {
             } else {
                 nums3.add(nums2[j++]);
             }
+
         }
         // either one of having the empty array
         while(i<n1)  nums3.add(nums1[i++]);
