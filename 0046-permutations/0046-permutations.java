@@ -11,6 +11,7 @@ class Solution { // Tc is O(n! * N) and Sc is o(N) where the n is the stack spac
             resultList.add(new ArrayList<>(tempList));
             return;
         }
+
         
         for(int number : nums){
             // skip if we get the same element
