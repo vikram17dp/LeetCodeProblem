@@ -9,7 +9,8 @@
  * }
  */
 class Solution { // tc is O(nlogk) and sc is O(n)
-    public ListNode mergeKLists(ListNode[] lists) {
+    public ListNode
+ mergeKLists(ListNode[] lists) {
         PriorityQueue<ListNode> minHeap = new PriorityQueue<>((a,b)->a.val-b.val);
         // Step 1: Add the head node of each list to the min-heap
         for(ListNode node:lists){
