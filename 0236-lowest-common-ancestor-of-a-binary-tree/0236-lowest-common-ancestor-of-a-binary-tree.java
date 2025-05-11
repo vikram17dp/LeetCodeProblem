@@ -16,10 +16,10 @@ class Solution {// tc is O(N) and sc is O(H)
         TreeNode leftLCA = lowestCommonAncestor(root.left,p,q);
         TreeNode rightLCA = lowestCommonAncestor(root.right,p,q);
 
-        if(leftLCA != null && rightLCA != null){
+        if(leftLCA != null && rightLCA != null){// if both are not null means return root
             return root;
         }
-
+// if left is null return right,if right is null return left
         return (leftLCA != null) ? leftLCA: rightLCA;
     }
 }
