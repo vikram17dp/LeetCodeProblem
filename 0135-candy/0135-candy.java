@@ -12,6 +12,7 @@ class Solution { // TC: O(N), SC: O(N)
         }
 
         // Right to left
+
         for (int i = n - 2; i >= 0; i--) {
             if (ratings[i] > ratings[i + 1]) {
                 candies[i] = Math.max(candies[i], candies[i + 1] + 1);
