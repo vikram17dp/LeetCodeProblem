@@ -1,4 +1,4 @@
-class Solution {
+class Solution {//O((n + m) * m) where n is length of a, m is length of b. and sc is O(n)
     public int repeatedStringMatch(String a, String b) {
         StringBuilder sb = new StringBuilder();
         int count = 0;
