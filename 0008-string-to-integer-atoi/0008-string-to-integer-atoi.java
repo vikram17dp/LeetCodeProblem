@@ -14,6 +14,7 @@ class Solution {
         // itailize the pointer 
         
         int i = (s.charAt(0) == '-' || s.charAt(0) == '+') ? 1: 0;
+
         
         if(s.charAt(0) == '-') sign = -1;
         
