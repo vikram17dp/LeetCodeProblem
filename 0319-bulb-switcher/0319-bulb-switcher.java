@@ -7,6 +7,7 @@ class Solution {
         while(i*i <=n){
             count++;
             i++;
+
         }
         return count;
     }
