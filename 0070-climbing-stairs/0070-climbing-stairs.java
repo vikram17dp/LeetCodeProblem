@@ -5,6 +5,7 @@ class Solution {// tc is O(n) and sc is O(1)
         
         int prev1 = 2;
         int prev2 = 1;
+
         
         for(int i = 3;i<=n;i++){
             int current = prev1+prev2;
