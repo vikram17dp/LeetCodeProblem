@@ -5,6 +5,7 @@ class Solution { // tc is O(n) and sc O(26 or 128) 26-english letters and other 
         
         HashMap<Character,Character> charMap = new HashMap<>();
         
+
         for(int i =0;i<s.length();i++){
             char original = s.charAt(i);
             char replacment = t.charAt(i);
