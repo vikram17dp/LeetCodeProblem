@@ -7,6 +7,7 @@ class LFUCache { // tc is O(1) and sc is O(n)
             this.value = value;
         }
     }
+
     private final int capacity;
     private int minFreq;
     private Map<Integer, Node> keyToNode;
