@@ -1,5 +1,6 @@
 class Solution {
     public boolean increasingTriplet(int[] nums) {
+
         int first = Integer.MAX_VALUE; // it means +infinity
         int second = Integer.MAX_VALUE;
         int third = Integer.MAX_VALUE;
