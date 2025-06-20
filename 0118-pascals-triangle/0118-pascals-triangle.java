@@ -7,6 +7,7 @@ class Solution { // TC is O(N)
             res = res*(n-i)/(i+1);
             
         }
+
         return (int) res;
     }
     public List<List<Integer>> generate(int numRows) {
