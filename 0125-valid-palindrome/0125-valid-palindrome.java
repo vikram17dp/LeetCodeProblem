@@ -9,6 +9,7 @@ class Solution { // tc is O(n) and sc is O(1)
            while(start<end && !Character.isLetterOrDigit(s.charAt(start))){
                start++;
            }
+
             // skipping the all numeric values from the end
            while(start<end && !Character.isLetterOrDigit(s.charAt(end))){
                end--;
