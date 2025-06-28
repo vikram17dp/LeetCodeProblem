@@ -1,11 +1,20 @@
-class Solution { // O(N) and O(1)
+class Solution { // O(N) and O(N)
     public int singleNumber(int[] nums) {
         int n = nums.length;
-      int xOr = 0;
-        for(int i = 0;i<n;i++){
-            xOr = xOr^nums[i];
+
+        Map<Integer,Integer> map = new HashMap<>();
+
+        for(int num:nums){
+            map.put(num,map.getOrDefault(num,0)+1);
         }
-        return xOr;
+
+        for(int num:nums){
+            if(map.get(num) == 1){
+                return num;
+            }
+
+        }
+        return -1;
         
         
         
