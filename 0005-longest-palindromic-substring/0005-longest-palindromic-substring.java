@@ -13,6 +13,7 @@ class Solution { // Tc is O(nsquare) and Sc is O(1)
             while(str.charAt(low) == str.charAt(high)){
                 low--;
                 high++;     
+
                 
                 if(low == -1 || high == str.length()) break;
             }
