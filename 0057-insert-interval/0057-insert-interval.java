@@ -4,6 +4,7 @@ class Solution { // tc and sc is O(n)
         
         int i = 0;
         int n = intervals.length;
+
         
         // Step 1: Add all intervals that come before newInterval
         while(i<n && intervals[i][1] < newInterval[0]){
