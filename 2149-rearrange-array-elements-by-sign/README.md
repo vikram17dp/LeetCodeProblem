@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/rearrange-array-elements-by-sign/">2149. Rearrange Array Elements by Sign</a></h2><h3>Medium</h3><hr><div><p>You are given a <strong>0-indexed</strong> integer array <code>nums</code> of <strong>even</strong> length consisting of an <strong>equal</strong> number of positive and negative integers.</p>
+<h2><a href="https://leetcode.com/problems/rearrange-array-elements-by-sign">2149. Rearrange Array Elements by Sign</a></h2><h3>Medium</h3><hr><p>You are given a <strong>0-indexed</strong> integer array <code>nums</code> of <strong>even</strong> length consisting of an <strong>equal</strong> number of positive and negative integers.</p>
 
 <p>You should return the array of nums such that the the array follows the given conditions:</p>
 
@@ -13,7 +13,8 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> nums = [3,1,-2,-5,2,-4]
+<pre>
+<strong>Input:</strong> nums = [3,1,-2,-5,2,-4]
 <strong>Output:</strong> [3,-2,1,-5,2,-4]
 <strong>Explanation:</strong>
 The positive integers in nums are [3,1,2]. The negative integers are [-2,-5,-4].
@@ -23,7 +24,8 @@ Other ways such as [1,-2,2,-5,3,-4], [3,1,2,-2,-5,-4], [-2,3,-5,1,-4,2] are inco
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> nums = [-1,1]
+<pre>
+<strong>Input:</strong> nums = [-1,1]
 <strong>Output:</strong> [1,-1]
 <strong>Explanation:</strong>
 1 is the only positive integer and -1 the only negative integer in nums.
@@ -41,4 +43,4 @@ So nums is rearranged to [1,-1].
 </ul>
 
 <p>&nbsp;</p>
-It is not required to do the modifications in-place.</div>
+It is not required to do the modifications in-place.
