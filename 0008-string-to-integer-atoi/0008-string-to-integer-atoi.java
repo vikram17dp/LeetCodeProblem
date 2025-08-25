@@ -2,7 +2,6 @@ class Solution {
     public int myAtoi(String s) {
         //remove the whitespace
         s = s.trim();
-
         
         if(s.length() == 0) return 0;
         
@@ -14,7 +13,6 @@ class Solution {
         // itailize the pointer 
         
         int i = (s.charAt(0) == '-' || s.charAt(0) == '+') ? 1: 0;
-
         
         if(s.charAt(0) == '-') sign = -1;
         
@@ -24,7 +22,6 @@ class Solution {
             //from this condition only we are getting ans of digit 
             ans = ans*10 + s.charAt(i) - '0';
             
-
             if(sign == -1 && -1*ans<min) return min ;
             if(sign == +1 && ans>max) return max;
             i++;
