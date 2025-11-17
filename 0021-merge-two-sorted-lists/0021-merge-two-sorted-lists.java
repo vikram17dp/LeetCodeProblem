@@ -21,7 +21,7 @@ class Solution {// TC is O(n+m) and SC is O(1)
             if (list1.val <= list2.val) {
                 returnNode.next = list1; // Append the smaller node
                 list1 = list1.next; // Advance list1
-            }  else {
+            } else {
                 returnNode.next = list2; // Append the smaller node
                 list2 = list2.next; // Advance list2
             }
