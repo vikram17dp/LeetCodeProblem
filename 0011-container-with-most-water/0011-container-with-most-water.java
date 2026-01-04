@@ -7,12 +7,11 @@ class Solution {
             
             maxArea = Math.max(area,maxArea);
              if(height[left]<height[right]){
-            left++;
-           }else{
-              right--;
+                left++;
+             }else{
+                right--;
            }
         }
-
        
         return maxArea;
     }
