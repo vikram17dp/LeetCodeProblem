@@ -9,7 +9,7 @@
  *     }
  * }
  */
-public class Solution {
+public class Solution { // Tc O(N) and Sc is O(1)
     public boolean hasCycle(ListNode head) {
         if(head == null || head.next == null){
             return false;
