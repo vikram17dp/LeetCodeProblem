@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // tc is O(n) and sc is O(n) pattern is prefix sum -> we can do it in + and -ve values as well 
     public int subarraySum(int[] nums, int k) {
         HashMap<Integer,Integer> map = new HashMap<>();
         int count = 0;
