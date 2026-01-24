@@ -1,4 +1,5 @@
 class Solution { // tc is O(n) & sc is O(1)
+// same prefixsum approach but here just product method have to apply 
     public int[] productExceptSelf(int[] nums) {
         int[] left = new int[nums.length];
         
