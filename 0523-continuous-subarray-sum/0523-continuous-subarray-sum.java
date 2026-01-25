@@ -5,7 +5,7 @@ class Solution {// tc is O(n) and sc is O(n) and prefix sum modulo + hashmap
 
         HashMap<Integer,Integer> map = new HashMap<>();
 
-        map.put(0,-1);// for oth index having -1, then actualyy when we are doing we can consider an oth index as well 
+        map.put(0,-1);// for oth index having -1, then actualy when we are doing we can consider an oth index as well 
 
         for(int i = 0;i<n;i++){
             prefixSum += nums[i];
