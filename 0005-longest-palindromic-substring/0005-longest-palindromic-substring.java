@@ -1,45 +1,28 @@
-class Solution { // Tc is O(nsquare) and Sc is O(1)
-    public String longestPalindrome(String str) {
-        // Base Case
+class Solution {// tc is O(nsquare) and sc is O(1) for optimal one Manacher’s Algorithm O(n)
+    public String longestPalindrome(String s) {
+        if (s.length() <= 1) return s;
 
-        if(str.length()<=1) return str;
-        
-        String LPS = "";
-        
-        for(int i =1;i<str.length();i++){
-            // odd length
-            int low = i;
-            int high = i;
-            while(str.charAt(low) == str.charAt(high)){
-                low--;
-                high++;     
+        int start = 0, end = 0;
 
-                
-                if(low == -1 || high == str.length()) break;
+        for (int i = 0; i < s.length(); i++) {
+            int len1 = expand(s, i, i);     // odd
+            int len2 = expand(s, i, i + 1); // even
+            int len = Math.max(len1, len2);
+
+            if (len > end - start) {
+                start = i - (len - 1) / 2;
+                end = i + len / 2;
             }
-                
-                String palindrome = str.substring(low+1,high);
-                
-                if(palindrome.length() > LPS.length()){
-                    LPS = palindrome;
-                }
-              // even length
-                
-                low = i-1;
-                high = i;
-                
-                while(str.charAt(low) == str.charAt(high)){
-                    low--;
-                    high++;
-                    if(low == -1 || high == str.length()) break;
-                }
-                    palindrome = str.substring(low+1,high);
-                    if(palindrome.length() > LPS.length()){
-                    LPS = palindrome;
-                }
-                }
-                return LPS;
-            
+        }
+
+        return s.substring(start, end + 1);
     }
-    
+
+    private int expand(String s, int l, int r) {
+        while (l >= 0 && r < s.length() && s.charAt(l) == s.charAt(r)) {
+            l--;
+            r++;
+        }
+        return r - l - 1;
+    }
 }
