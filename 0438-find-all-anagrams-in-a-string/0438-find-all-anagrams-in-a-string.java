@@ -1,4 +1,4 @@
-class Solution { // tc is O(n*m) and sc is O(26)
+class Solution { // tc is O(n) and sc is O(26)
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> result = new ArrayList<>();
 
