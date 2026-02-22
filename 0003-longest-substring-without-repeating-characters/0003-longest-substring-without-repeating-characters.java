@@ -11,9 +11,9 @@ class Solution { // tc is O(n) and sc is O(256)
             }
             set.add(s.charAt(right)); 
             maxlength = Math.max(maxlength,right-left+1);
-
              
         }
         return maxlength;
+
     }
 }
