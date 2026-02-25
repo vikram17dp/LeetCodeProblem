@@ -1,36 +1,42 @@
 class Solution {// tc is O((log(sum-max))) + O(n) => o(nlog(sum-max)) and sc is O(1)
     public int splitArray(int[] nums, int k) {
         int n = nums.length;
-        int low = Arrays.stream(nums).max().getAsInt();
-        int high = Arrays.stream(nums).sum();
-        int result = high;
+        int max = 0;
+        int sum = 0;
+        for(int num:nums){
+            max = Math.max(max,num);
+            sum += num;
+        }
+        int low = max;
+        int high = sum;
+        int result = sum;
 
         while(low<=high){
-            int mid = low + (high - low) /2;
+            int mid = low + (high - low) /2;                                                        
 
-            if(isPossible(nums,n,k,mid)){
+            if(canSplit(nums,k,mid)){
                 result= mid;
-                high = mid-1;
+                high = mid-1; // try for smaller
             }else{
-                low = mid+1;
+                low = mid+1; // try for bigger
             }
         }
         return result;
     }
 
-    private boolean isPossible(int[] nums,int n,int k,int maxSplit){
+    private boolean canSplit(int[] nums,int k,int maxSum){
         int splits = 1;
         int currentSum = 0;
 
-        for(int i =0;i<n;i++){
-            if(currentSum + nums[i] > maxSplit){
+        for(int num:nums){
+            if(currentSum + num > maxSum){
                 splits++;
-                currentSum = nums[i];
-                if(splits > k) return false;
+                currentSum = num;
+                
             }else{
-                currentSum += nums[i];
+                currentSum += num;
             }
         }
-        return true;
+        return splits <= k;
     }
 }
