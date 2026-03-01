@@ -1,5 +1,5 @@
 class Solution {
-    public boolean searchMatrix(int[][] matrix, int target) { // TC is o(n*(logm))
+    public boolean searchMatrix(int[][] matrix, int target) { // TC is o(log(n*m)) sc is O(1)
         int n = matrix.length;
         int m = matrix[0].length;
         if(n == 0 || m == 0){
