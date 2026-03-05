@@ -1,5 +1,5 @@
-class Solution { // tc is O(n) and sc is O(n)
-    public int evalRPN(String[] tokens) {
+class Solution { // tc is O(n) and sc is O(n) push the digits into stack,when oprands will come just pop top two digits from stack.
+    public int evalRPN(String[] tokens) { 
         Stack<Integer> stack = new Stack<>();
 
         for(String token:tokens){
