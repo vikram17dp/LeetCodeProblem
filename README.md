@@ -18,4 +18,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0445-add-two-numbers-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0445-add-two-numbers-ii) |
+| [0496-next-greater-element-i](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0496-next-greater-element-i) |
+## Array
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0496-next-greater-element-i) |
+## Hash Table
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0496-next-greater-element-i) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
