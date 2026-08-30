@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0086-partition-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0086-partition-list) |
 | [0445-add-two-numbers-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0445-add-two-numbers-ii) |
+| [1019-next-greater-node-in-linked-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/1019-next-greater-node-in-linked-list) |
 ## Two Pointers
 |  |
 | ------- |
@@ -19,10 +20,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0445-add-two-numbers-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0445-add-two-numbers-ii) |
 | [0496-next-greater-element-i](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0496-next-greater-element-i) |
+| [1019-next-greater-node-in-linked-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/1019-next-greater-node-in-linked-list) |
 ## Array
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0496-next-greater-element-i) |
+| [1019-next-greater-node-in-linked-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/1019-next-greater-node-in-linked-list) |
 ## Hash Table
 |  |
 | ------- |
@@ -31,4 +34,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0496-next-greater-element-i) |
+| [1019-next-greater-node-in-linked-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/1019-next-greater-node-in-linked-list) |
 <!---LeetCode Topics End-->
