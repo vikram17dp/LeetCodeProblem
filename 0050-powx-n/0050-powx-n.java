@@ -1,4 +1,4 @@
-class Solution { // tc is O(n/2)=>o(n) and sc is O(1)
+class Solution { // tc is O(logn) and sc is O(1) // iterative approach
     public double myPow(double x, int n) {
         
         long exp = n;
@@ -6,15 +6,13 @@ class Solution { // tc is O(n/2)=>o(n) and sc is O(1)
             x = 1/x;
             exp = -exp;
         }
-        double ans = 1.0;
-        while(exp > 0){
-            if(exp % 2 != 0){// odd 
-                ans = ans * x;
-            }
-            x *= x;
-            exp /= 2;
+        return power(x,exp,1);
+    }
+    double power(double x,long n,double ans){
+        if(n == 0) return ans;
+        if(n % 2 != 0){
+            ans *= x;
         }
-        return ans;
-        
+        return power(x*x,n/2,ans);
     }
 }
