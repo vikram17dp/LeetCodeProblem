@@ -1,18 +1,20 @@
-class Solution {
+class Solution { // tc is O(n/2)=>o(n) and sc is O(1)
     public double myPow(double x, int n) {
-        double ans = 1.0;
-        long newNum = n;
-        if(newNum < 0) newNum = -1*newNum; // here we are converting -ve To +ve
-        while(newNum > 0){
-            if(newNum % 2 == 1){ // for odd number
-                ans = ans*x;
-                newNum = newNum - 1;
-            }else{ // for even number
-                x = x*x;
-                newNum = newNum / 2;
-            }
+        
+        long exp = n;
+        if(exp < 0){
+            x = 1/x;
+            exp = -exp;
         }
-        if(n < 0 ) ans = (double)(1.0) / (double)(ans);
+        double ans = 1.0;
+        while(exp > 0){
+            if(exp % 2 != 0){// odd 
+                ans = ans * x;
+            }
+            x *= x;
+            exp /= 2;
+        }
         return ans;
+        
     }
 }
