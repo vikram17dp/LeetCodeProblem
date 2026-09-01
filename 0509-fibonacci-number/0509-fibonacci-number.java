@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // tc is o(n) and sc is O(1)
     public int fib(int n) {
         if(n == 0){
            return 0;
