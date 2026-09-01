@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0050-powx-n) |
+| [0070-climbing-stairs](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0070-climbing-stairs) |
 | [0445-add-two-numbers-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0445-add-two-numbers-ii) |
 | [0509-fibonacci-number](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0509-fibonacci-number) |
 ## Stack
@@ -49,9 +50,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0509-fibonacci-number) |
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0509-fibonacci-number) |
 <!---LeetCode Topics End-->
