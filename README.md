@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0496-next-greater-element-i) |
 | [0704-binary-search](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0704-binary-search) |
 | [1019-next-greater-node-in-linked-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/1019-next-greater-node-in-linked-list) |
+| [3904-smallest-stable-index-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/3904-smallest-stable-index-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -70,4 +71,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0704-binary-search](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0704-binary-search) |
+## Prefix Sum
+|  |
+| ------- |
+| [3904-smallest-stable-index-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/3904-smallest-stable-index-ii) |
 <!---LeetCode Topics End-->
