@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0062-unique-paths](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0070-climbing-stairs) |
+| [0115-distinct-subsequences](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0115-distinct-subsequences) |
 | [0509-fibonacci-number](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0509-fibonacci-number) |
 ## Memoization
 |  |
@@ -75,4 +76,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3904-smallest-stable-index-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/3904-smallest-stable-index-ii) |
+## String
+|  |
+| ------- |
+| [0115-distinct-subsequences](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0115-distinct-subsequences) |
 <!---LeetCode Topics End-->
