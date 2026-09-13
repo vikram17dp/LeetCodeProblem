@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0496-next-greater-element-i](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0496-next-greater-element-i) |
 | [0704-binary-search](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0704-binary-search) |
+| [0835-image-overlap](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0835-image-overlap) |
 | [1019-next-greater-node-in-linked-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/1019-next-greater-node-in-linked-list) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/vikram17dp/LeetCodeProblem/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3904-smallest-stable-index-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/3904-smallest-stable-index-ii) |
@@ -105,4 +106,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/vikram17dp/LeetCodeProblem/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
+## Matrix
+|  |
+| ------- |
+| [0835-image-overlap](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0835-image-overlap) |
 <!---LeetCode Topics End-->
