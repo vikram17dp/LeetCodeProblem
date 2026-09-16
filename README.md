@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0445-add-two-numbers-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0445-add-two-numbers-ii) |
 | [0509-fibonacci-number](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0509-fibonacci-number) |
 | [0836-rectangle-overlap](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0836-rectangle-overlap) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/vikram17dp/LeetCodeProblem/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [3870-count-commas-in-range](https://github.com/vikram17dp/LeetCodeProblem/tree/master/3870-count-commas-in-range) |
 | [3871-count-commas-in-range-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/3871-count-commas-in-range-ii) |
 ## Stack
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0115-distinct-subsequences](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0115-distinct-subsequences) |
 | [0509-fibonacci-number](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0509-fibonacci-number) |
 | [0940-distinct-subsequences-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0940-distinct-subsequences-ii) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/vikram17dp/LeetCodeProblem/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/vikram17dp/LeetCodeProblem/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/vikram17dp/LeetCodeProblem/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 ## Memoization
@@ -78,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0062-unique-paths) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/vikram17dp/LeetCodeProblem/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 ## Binary Search
 |  |
 | ------- |
@@ -86,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/vikram17dp/LeetCodeProblem/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [3904-smallest-stable-index-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/3904-smallest-stable-index-ii) |
 ## String
 |  |
