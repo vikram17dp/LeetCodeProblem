@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0125-valid-palindrome) |
 | [0940-distinct-subsequences-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0940-distinct-subsequences-ii) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/vikram17dp/LeetCodeProblem/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
+| [3498-reverse-degree-of-a-string](https://github.com/vikram17dp/LeetCodeProblem/tree/master/3498-reverse-degree-of-a-string) |
 ## Tree
 |  |
 | ------- |
@@ -128,4 +129,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/vikram17dp/LeetCodeProblem/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
+## Simulation
+|  |
+| ------- |
+| [3498-reverse-degree-of-a-string](https://github.com/vikram17dp/LeetCodeProblem/tree/master/3498-reverse-degree-of-a-string) |
 <!---LeetCode Topics End-->
