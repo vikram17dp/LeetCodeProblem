@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0496-next-greater-element-i](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0496-next-greater-element-i) |
 | [0498-diagonal-traverse](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0498-diagonal-traverse) |
+| [0605-can-place-flowers](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0605-can-place-flowers) |
 | [0704-binary-search](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0704-binary-search) |
 | [0835-image-overlap](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0835-image-overlap) |
 | [1019-next-greater-node-in-linked-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/1019-next-greater-node-in-linked-list) |
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0605-can-place-flowers](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0605-can-place-flowers) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/vikram17dp/LeetCodeProblem/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Simulation
 |  |
