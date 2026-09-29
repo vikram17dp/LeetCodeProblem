@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0496-next-greater-element-i](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0496-next-greater-element-i) |
 | [0498-diagonal-traverse](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0498-diagonal-traverse) |
 | [0605-can-place-flowers](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0605-can-place-flowers) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0070-climbing-stairs) |
 | [0115-distinct-subsequences](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0115-distinct-subsequences) |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0509-fibonacci-number](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0509-fibonacci-number) |
 | [0647-palindromic-substrings](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0647-palindromic-substrings) |
 | [0940-distinct-subsequences-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0940-distinct-subsequences-ii) |
@@ -143,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0605-can-place-flowers](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0605-can-place-flowers) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/vikram17dp/LeetCodeProblem/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Simulation
