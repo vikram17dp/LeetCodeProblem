@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0032-longest-valid-parentheses](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0032-longest-valid-parentheses) |
 | [0445-add-two-numbers-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0445-add-two-numbers-ii) |
 | [0496-next-greater-element-i](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0496-next-greater-element-i) |
 | [1019-next-greater-node-in-linked-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/1019-next-greater-node-in-linked-list) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0032-longest-valid-parentheses](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0032-longest-valid-parentheses) |
 | [0062-unique-paths](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0070-climbing-stairs) |
 | [0115-distinct-subsequences](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0115-distinct-subsequences) |
@@ -110,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0032-longest-valid-parentheses](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0032-longest-valid-parentheses) |
 | [0115-distinct-subsequences](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0125-valid-palindrome) |
 | [0647-palindromic-substrings](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0647-palindromic-substrings) |
@@ -161,4 +164,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/vikram17dp/LeetCodeProblem/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0032-longest-valid-parentheses](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0032-longest-valid-parentheses) |
 <!---LeetCode Topics End-->
