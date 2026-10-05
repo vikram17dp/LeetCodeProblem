@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // tc is O(n) and sc is O(1)
     public int maxArea(int[] height) {
         int left = 0,right = height.length-1,maxArea = 0;
         
