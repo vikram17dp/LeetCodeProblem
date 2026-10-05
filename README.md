@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0015-3sum) |
 | [0086-partition-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0086-partition-list) |
 | [0125-valid-palindrome](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0125-valid-palindrome) |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0049-group-anagrams) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -163,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0011-container-with-most-water) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0605-can-place-flowers](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0605-can-place-flowers) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/vikram17dp/LeetCodeProblem/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
