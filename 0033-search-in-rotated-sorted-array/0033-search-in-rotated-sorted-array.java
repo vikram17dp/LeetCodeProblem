@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // O(logn)
     public int search(int[] nums, int target) {
         int index =-1;
         int low = 0;
