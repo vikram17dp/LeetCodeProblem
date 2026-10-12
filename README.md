@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0032-longest-valid-parentheses) |
 | [0445-add-two-numbers-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0445-add-two-numbers-ii) |
 | [0496-next-greater-element-i](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0496-next-greater-element-i) |
+| [0739-daily-temperatures](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0739-daily-temperatures) |
 | [1019-next-greater-node-in-linked-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/1019-next-greater-node-in-linked-list) |
 | [2487-remove-nodes-from-linked-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/2487-remove-nodes-from-linked-list) |
 ## Array
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0560-subarray-sum-equals-k) |
 | [0605-can-place-flowers](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0605-can-place-flowers) |
 | [0704-binary-search](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0704-binary-search) |
+| [0739-daily-temperatures](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0739-daily-temperatures) |
 | [0835-image-overlap](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0835-image-overlap) |
 | [0918-maximum-sum-circular-subarray](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0918-maximum-sum-circular-subarray) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0974-subarray-sums-divisible-by-k) |
@@ -84,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0496-next-greater-element-i) |
+| [0739-daily-temperatures](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0739-daily-temperatures) |
 | [1019-next-greater-node-in-linked-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/1019-next-greater-node-in-linked-list) |
 | [2487-remove-nodes-from-linked-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/2487-remove-nodes-from-linked-list) |
 ## Recursion
