@@ -19,3 +19,9 @@ class StockSpanner { // tc is O(N) and sc is O(N)
         return span;
     }
 }
+
+/**
+ * Your StockSpanner object will be instantiated and called as such:
+ * StockSpanner obj = new StockSpanner();
+ * int param_1 = obj.next(price);
+ */
