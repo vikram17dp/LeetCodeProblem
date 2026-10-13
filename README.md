@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0739-daily-temperatures) |
 | [0901-online-stock-span](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0901-online-stock-span) |
 | [1019-next-greater-node-in-linked-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/1019-next-greater-node-in-linked-list) |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/vikram17dp/LeetCodeProblem/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [2487-remove-nodes-from-linked-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/2487-remove-nodes-from-linked-list) |
 ## Array
 |  |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0125-valid-palindrome) |
 | [0647-palindromic-substrings](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0647-palindromic-substrings) |
 | [0940-distinct-subsequences-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0940-distinct-subsequences-ii) |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/vikram17dp/LeetCodeProblem/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/vikram17dp/LeetCodeProblem/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [3498-reverse-degree-of-a-string](https://github.com/vikram17dp/LeetCodeProblem/tree/master/3498-reverse-degree-of-a-string) |
 ## Tree
