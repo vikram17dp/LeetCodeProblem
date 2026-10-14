@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0739-daily-temperatures) |
 | [0901-online-stock-span](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0901-online-stock-span) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1019-next-greater-node-in-linked-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/1019-next-greater-node-in-linked-list) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/vikram17dp/LeetCodeProblem/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [2487-remove-nodes-from-linked-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/2487-remove-nodes-from-linked-list) |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0115-distinct-subsequences](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0125-valid-palindrome) |
 | [0647-palindromic-substrings](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0647-palindromic-substrings) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0940-distinct-subsequences-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0940-distinct-subsequences-ii) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/vikram17dp/LeetCodeProblem/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/vikram17dp/LeetCodeProblem/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
@@ -192,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0011-container-with-most-water) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0605-can-place-flowers](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0605-can-place-flowers) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/vikram17dp/LeetCodeProblem/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Simulation
 |  |
@@ -212,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0032-longest-valid-parentheses) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 ## Bit Manipulation
 |  |
 | ------- |
