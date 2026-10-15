@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0169-majority-element) |
 | [0209-minimum-size-subarray-sum](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0209-minimum-size-subarray-sum) |
 | [0287-find-the-duplicate-number](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0287-find-the-duplicate-number) |
 | [0496-next-greater-element-i](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0496-next-greater-element-i) |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0049-group-anagrams) |
+| [0169-majority-element](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0169-majority-element) |
 | [0496-next-greater-element-i](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0560-subarray-sum-equals-k) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0974-subarray-sums-divisible-by-k) |
@@ -177,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0049-group-anagrams) |
+| [0169-majority-element](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0169-majority-element) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/vikram17dp/LeetCodeProblem/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 ## Matrix
 |  |
@@ -231,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0169-majority-element) |
 | [0918-maximum-sum-circular-subarray](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0918-maximum-sum-circular-subarray) |
 ## Queue
 |  |
@@ -248,4 +252,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0901-online-stock-span](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0901-online-stock-span) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0169-majority-element) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
