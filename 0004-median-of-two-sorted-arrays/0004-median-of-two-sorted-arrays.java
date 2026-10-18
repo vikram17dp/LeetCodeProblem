@@ -1,10 +1,7 @@
-import java.util.ArrayList;
-import java.util.List;
-class Solution {
+class Solution { // tc is o(n) and sc is O(n)
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int n1 = nums1.length;
         int n2 = nums2.length;
-
         List<Integer> nums3 = new ArrayList<>();
         int i = 0,j = 0;
         // two array are empty
@@ -18,7 +15,6 @@ class Solution {
             } else {
                 nums3.add(nums2[j++]);
             }
-
         }
         // either one of having the empty array
         while(i<n1)  nums3.add(nums1[i++]);
