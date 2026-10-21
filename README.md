@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0061-rotate-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0061-rotate-list) |
 | [0086-partition-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0086-partition-list) |
+| [0148-sort-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0206-reverse-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0328-odd-even-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0445-add-two-numbers-ii) |
@@ -21,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0061-rotate-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0061-rotate-list) |
 | [0086-partition-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0086-partition-list) |
 | [0125-valid-palindrome](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0125-valid-palindrome) |
+| [0148-sort-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0148-sort-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0287-find-the-duplicate-number](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0287-find-the-duplicate-number) |
 | [0647-palindromic-substrings](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0647-palindromic-substrings) |
@@ -189,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0049-group-anagrams) |
+| [0148-sort-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0169-majority-element) |
 | [0451-sort-characters-by-frequency](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0451-sort-characters-by-frequency) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/vikram17dp/LeetCodeProblem/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
@@ -247,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0004-median-of-two-sorted-arrays) |
+| [0148-sort-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0169-majority-element) |
 | [0918-maximum-sum-circular-subarray](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0918-maximum-sum-circular-subarray) |
 ## Queue
@@ -286,4 +290,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0078-subsets) |
+## Merge Sort
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0148-sort-list) |
 <!---LeetCode Topics End-->
