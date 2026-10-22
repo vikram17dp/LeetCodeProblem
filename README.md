@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0169-majority-element) |
 | [0209-minimum-size-subarray-sum](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0209-minimum-size-subarray-sum) |
 | [0287-find-the-duplicate-number](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0287-find-the-duplicate-number) |
+| [0347-top-k-frequent-elements](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0347-top-k-frequent-elements) |
 | [0496-next-greater-element-i](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0496-next-greater-element-i) |
 | [0498-diagonal-traverse](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0498-diagonal-traverse) |
 | [0560-subarray-sum-equals-k](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0560-subarray-sum-equals-k) |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0560-subarray-sum-equals-k) |
@@ -193,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0049-group-anagrams) |
 | [0148-sort-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0451-sort-characters-by-frequency) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/vikram17dp/LeetCodeProblem/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 ## Matrix
@@ -252,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0004-median-of-two-sorted-arrays) |
 | [0148-sort-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0347-top-k-frequent-elements) |
 | [0918-maximum-sum-circular-subarray](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0918-maximum-sum-circular-subarray) |
 ## Queue
 |  |
@@ -273,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0451-sort-characters-by-frequency) |
 ## Boyer–Moore Majority Vote Algorithm
 |  |
@@ -281,10 +286,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0451-sort-characters-by-frequency) |
 ## Bucket Sort
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0451-sort-characters-by-frequency) |
 ## Backtracking
 |  |
@@ -294,4 +301,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0148-sort-list) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
