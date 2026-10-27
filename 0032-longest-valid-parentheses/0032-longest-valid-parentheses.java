@@ -13,7 +13,7 @@ class Solution { // tc is O(n) and sc is O(1) two way traversal using open and c
             }
             if(open == close){
                 maxLen = Math.max(maxLen,2 * close);
-            }else if(close > open){
+            }else if(close > open){//There are too many closing parentheses.
                 open = close = 0;
             }
         }
@@ -28,7 +28,7 @@ class Solution { // tc is O(n) and sc is O(1) two way traversal using open and c
             }
             if(open == close){
                 maxLen = Math.max(maxLen,2 * open);
-            }else if(open > close){
+            }else if(open > close){//There are too many opening parentheses.
                 open = close = 0;
             }
         }
