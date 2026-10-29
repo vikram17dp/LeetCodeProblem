@@ -189,16 +189,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0111-minimum-depth-of-binary-tree](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0111-minimum-depth-of-binary-tree) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/vikram17dp/LeetCodeProblem/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0111-minimum-depth-of-binary-tree](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0111-minimum-depth-of-binary-tree) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/vikram17dp/LeetCodeProblem/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0111-minimum-depth-of-binary-tree](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0111-minimum-depth-of-binary-tree) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/vikram17dp/LeetCodeProblem/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Sorting
 |  |
@@ -324,4 +327,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0111-minimum-depth-of-binary-tree](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0111-minimum-depth-of-binary-tree) |
 <!---LeetCode Topics End-->
