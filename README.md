@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0070-climbing-stairs) |
+| [0231-power-of-two](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0231-power-of-two) |
 | [0445-add-two-numbers-ii](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0445-add-two-numbers-ii) |
 | [0509-fibonacci-number](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0509-fibonacci-number) |
 | [0836-rectangle-overlap](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0836-rectangle-overlap) |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0050-powx-n](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0206-reverse-linked-list) |
+| [0231-power-of-two](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0231-power-of-two) |
 | [0509-fibonacci-number](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0509-fibonacci-number) |
 | [2487-remove-nodes-from-linked-list](https://github.com/vikram17dp/LeetCodeProblem/tree/master/2487-remove-nodes-from-linked-list) |
 ## Dynamic Programming
@@ -266,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0078-subsets) |
+| [0231-power-of-two](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0231-power-of-two) |
 | [0287-find-the-duplicate-number](https://github.com/vikram17dp/LeetCodeProblem/tree/master/0287-find-the-duplicate-number) |
 ## Pigeonhole Principle
 |  |
