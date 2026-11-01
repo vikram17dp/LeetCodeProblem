@@ -2,6 +2,7 @@ class Solution { // tc is O(logn) and sc is O(1)
     public int mySqrt(int x) {
         // base case
         if(x == 0 || x== 1) return x;
+        
         int low = 1,high = x,ans = 0;
 
         while(low<=high){
