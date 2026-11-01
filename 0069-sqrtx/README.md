@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/sqrtx/">69. Sqrt(x)</a></h2><h3>Easy</h3><hr><p>Given a non-negative integer <code>x</code>, return <em>the square root of </em><code>x</code><em> rounded down to the nearest integer</em>. The returned integer should be <strong>non-negative</strong> as well.</p>
+<h2><a href="https://leetcode.com/problems/sqrtx">69. Sqrt(x)</a></h2><h3>Easy</h3><hr><p>Given a non-negative integer <code>x</code>, return <em>the square root of </em><code>x</code><em> rounded down to the nearest integer</em>. The returned integer should be <strong>non-negative</strong> as well.</p>
 
 <p>You <strong>must not use</strong> any built-in exponent function or operator.</p>
 
